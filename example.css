@@ -1,0 +1,45 @@
+body{
+    padding: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+}
+h2{
+    color: rgb(10, 240, 240);
+}
+form{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0  0 10px rgb(56, 56, 56);
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: cadetblue;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input {
+    background-color: rgb(248, 214, 127);
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input:hover{
+    background-color: rgb(160, 243, 232);
+    color: black;
+}
+.error{
+    color: red;
+    font-size:2px;
+    display: block;
+}

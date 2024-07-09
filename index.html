@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Simple validation</title>
+    <link rel="stylesheet" href="../day11/css/example.css">
+</head>
+<body>
+    <h2>Simple form validation</h2>
+    <form id="myform" onsubmit="return validateForm() ">
+<label for="name">Name</label>
+<input type="text" id="name" name="name">
+<span id="nameError" class="error"></span><br>
+
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email">
+<span id="emailError" class="error"></span><br>
+
+<input type="submit" value="signup">
+
+        
+    </form>
+    <script src="../day11/java/java.js"></script>
+</body>
+</html>
